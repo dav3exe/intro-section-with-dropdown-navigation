@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="mx-auto container w-11/12 justify-center items-center">
+
+    <header class="flex py-10 justify-between" >
+
+      <div class="flex justify-between md:justify-start md:gap-15 ">
+
+      <div>
+        <img src="./images/logo.svg" alt="">
+      </div>
+    
+      <nav class="hidden md:flex md:gap-10 text-gray-500 ">
+
+        <a href="#" class="hover:text-black">Features</a>
+        <a href="#" class="hover:text-black">Company</a>
+        <a href="#" class="hover:text-black">Careers</a>
+        <a href="#" class="hover:text-black">About</a>
+
+      </nav>
+
+      
+  </div>
+
+      <div>
+        <img src="./images/icon-menu.svg" alt="" class="md:hidden">
+      </div>
+
+      <div class="hidden md:flex gap-5  ">
+        <span><a href="#">Login</a></span>
+        <button class=" border w-25 h-10 rounded-xl mt-[-8px]"><a href="">Register</a></button>
+      </div>
+
+    </header>
+
+  </div>  
+
+  <main class="justify-center items-center md:px-20 container w  mx-auto">
+
+    <div class="flex flex-col md:flex md:flex-row-reverse justify-center items-center gap-5 px-30 md:gap-5">
+      <div>
+        <img src="./images/image-hero-mobile.png" alt="" class="block md:hidden w-full">
+      </div>
+
+      <div>
+        <img src="./images/image-hero-desktop.png" alt="" class="hidden md:block max-w-[400px]">
+      </div>
+      
+      <div class="flex flex-col justify-center items-center md:items-start mx-auto gap-7 md:gap-10">
+
+        <p class="text-4xl md:text-6xl font-bold text-center md:text-start ">Make remote work
+</p>
+
+      <p class="w-[300px] md:p-0 text-center md:text-start">
+        Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+      </p>
+
+      <button class="hover:bg-white hover:text-black border bg-black text-white font-bold w-35 h-13 rounded-xl "><a href="#">Learn more</a></button>
+
+      
+ <div class="grid grid-cols-4 py-15 gap-2 px-5 md:gap md:px-0 ">
+       <div> <img src="./images/client-databiz.svg" alt="" class=""></div>
+        <div><img src="./images/client-audiophile.svg" alt="" class="md:pl-5"></div>
+        <div><img src="./images/client-meet.svg" alt="" class=""></div>
+        <div><img src="./images/client-maker.svg" alt="" class=""></div>
+      </div>
+
+      </div>
+
+    </div>
+
+
+
+  </main>
+  
+  
+
+
+
+</body>
+</html>
